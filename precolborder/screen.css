@@ -1,0 +1,18 @@
+﻿/* --------------------------------------------------------------
+
+   precolborder.css
+   * Prepends a colborder to an element.
+
+   Created by Gareth J M Saunders [garethjmsaunders.co.uk]
+   * http://www.garethjmsaunders.co.uk/blueprint/
+
+   See Readme.txt in this folder for instructions.
+
+-------------------------------------------------------------- */
+
+/* Border with more whitespace, spans one column. */
+.precolborder {
+  padding-left: 24px;
+  margin-left: 15px;
+  border-left: 1px solid #eee;
+}

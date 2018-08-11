@@ -1,0 +1,789 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <title>Blueprint 960gs plugin (v.1.0.1)</title>
+    <link rel="stylesheet" href="../css/blueprint/screen.css" type="text/css" />
+    <link rel="stylesheet" href="../css/debug.css" type="text/css" />
+    <link rel="stylesheet" href="../css/blueprint/print.css" type="text/css" media="print"/>
+    <link rel="stylesheet" href="../css/blueprint/plugins/960gs/grid-12.css" type="text/css" />
+    <link rel="stylesheet" href="../css/blueprint/plugins/960gs/grid-16.css" type="text/css" />
+    <link rel="stylesheet" href="../css/blueprint/plugins/960gs/grid-24.css" type="text/css" />
+    <link rel="stylesheet" href="../../append-x-colborder/grid-24-default.css" type="text/css" />
+    <!--[if lt IE 8]><link rel="stylesheet" href="../css/blueprint/ie.css" type="text/css" /><![endif]-->
+</head>
+
+<body>
+<!-- 12 columns ============================================================ -->
+<div id="container-12" class="container-12 prepend-top showgrid-12">
+    <div id="header-12" class="span-12">
+        <!--<h1>Blueprint 960gs - 12 columns</h1>-->
+        <h1>Blueprint 960gs - 12 columns</h1>
+    </div>
+
+    <div id="blog1" class="span-6 colborder">
+        <h2>span-6 colborder</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula. Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+    </div>
+    <div id="blog2" class="span-5 last">
+        <h3>span-5 last</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula. Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+    </div>
+
+<!-- (a/pre)pending test -->
+    <div id="blog3" class="span-6 append-2">
+        <h2>span-6 append-2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula. Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+    </div>
+    <div id="blog4" class="precolborder span-3 last">
+        <h3>precolborder span-3 last</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula.</p>
+    </div>
+
+<hr class="space" />
+
+    <!-- Form elements test -->
+    <h2 class="span-12 last">Form elements test</h2>
+    <form id="dummyElements" action="#" method="post" class="span-12 last">
+
+        <p><label for="textElement">Name</label><br />
+        <input id="textElement" name="textElement" class="text span-6 last" /></p>
+
+        <p><label for="textAreaElement">Message</label><br />
+        <textarea id="textAreaElement" class="span-4 last"></textarea></p>
+    </form>
+
+<!-- Form test -->
+    <h2 class="span-12 last">Form test (based on original forms demo)</h2>
+
+    <div class="span-6">
+
+      <form id="dummy" action="#" method="post">
+
+      	<fieldset>
+      		<legend>Simple sample form</legend>
+
+      		<p><label for="dummy0">Text input (title)</label><br>
+      		  <input type="text" class="title" name="dummy0" id="dummy0" value="Field with class .title"></p>
+
+          <p><label for="dummy1">Another field</label><br>
+      		  <input type="text" class="text" id="dummy1" name="dummy1" value="Field with class .text"></p>
+
+      	  <p><label for="dummy2">Textarea</label><br>
+      	    <textarea name="dummy2" id="dummy2" rows="5" cols="20"></textarea></p>
+
+      		<p><input type="submit" value="Submit">
+      		  <input type="reset" value="Reset"></p>
+
+      	</fieldset>
+      </form>
+
+    </div>
+    <div class="span-6 last">
+
+      <div class="error">
+        This is a &lt;div&gt; with the class <strong>.error</strong>. <a href="#">Link</a>.
+      </div>
+      <div class="notice">
+        This is a &lt;div&gt; with the class <strong>.notice</strong>. <a href="#">Link</a>.
+      </div>
+      <div class="success">
+        This is a &lt;div&gt; with the class <strong>.success</strong>. <a href="#">Link</a>.
+      </div>
+
+      <fieldset>
+        <legend>Select, checkboxes, lists</legend>
+
+    		<p><label for="dummy3">Select field</label><br>
+    		  <select id="dummy3" name="dummy3">
+    			  <option value="1">Ottawa</option>
+    			  <option value="2">Calgary</option>
+    			  <option value="3">Moosejaw</option>
+    		  </select></p>
+
+    		<p><label for="dummy4">Select with groups</label><br>
+    		  <select id="dummy4" name="dummy4">
+    			  <option>Favorite pet</option>
+    			  <optgroup label="mammals">
+    			    <option>dog</option>
+    			    <option>cat</option>
+    			    <option>rabbit</option>
+    			    <option>horse</option>
+    			  </optgroup>
+    			  <optgroup label="reptiles">
+    			    <option>iguana</option>
+    			    <option>snake</option>
+    			  </optgroup>
+    		  </select></p>
+
+    		  <p><label>Radio buttons</label><br>
+    		    <input type="radio" name="example" id="rb1"> <label for="rb1">Radio one</label><br>
+    		    <input type="radio" name="example" id="rb2"> <label for="rb2">Radio two</label><br>
+    		    <input type="radio" name="example" id="rb3"> <label for="rb3">Radio three<br></label></p>
+
+    		  <p><label>Checkboxes</label><br>
+    		    <input type="checkbox"> Check one<br>
+    		    <input type="checkbox"> Check two<br>
+    		    <input type="checkbox"> Check three<br></p>
+
+      </fieldset>
+
+    </div>
+
+		<div class="span-12 last">
+
+			<fieldset>
+        		<legend>Alignment</legend>
+
+    			<p>
+					<label for="dummy5">Select field</label>
+		    		  <select id="dummy5" name="dummy5">
+    					  <option value="1">Ottawa</option>
+    					  <option value="2">Calgary</option>
+    					  <option value="3">Moosejaw</option>
+    		 		 </select>
+        		</p>
+
+    		<p>
+					<label for="dummy6">Text input (title)</label>
+    		  <input type="text" class="title" name="dummy6" id="dummy6" value="Field with class .title">
+				</p>
+
+				<p>
+					<label for="dummy7">Select field</label>
+    		  <select id="dummy7" name="dummy7">
+    			  <option value="1">Ottawa</option>
+    			  <option value="2">Calgary</option>
+    			  <option value="3">Moosejaw</option>
+    		  </select>
+					<label for="dummy8">Another field</label>
+      		<input type="text" class="text" id="dummy8" name="dummy8" value="Field with class .text"></p>
+        	</fieldset>
+
+        </div>
+
+        <div class="span-12 last">
+
+			<form action="" method="post" class="inline">
+
+				<fieldset>
+					<legend>A form with class "inline"</legend>
+					<div class="span-3">
+						<label for="a">Label A:</label>
+						<select id="a" name="a" >
+							<option value="0">All</option>
+						</select>
+					</div>
+					<div class="span-2">
+						some text
+					</div>
+					<div class="span-3">
+						<input type="checkbox" id="o" name="o" value="true"	checked="checked" class="checkbox">checkbox one
+					</div>
+					<div class="span-3">
+						<label for="b">Label B:</label>
+						<select id="b" name="b" >
+							<option value="0">All</option>
+						</select>
+					</div>
+					<div class="span-2">
+						<a href="">A Hyperlink</a>
+					</div>
+					<div class="span-8">
+						<input type="text" class="text" id="q" name="q" value="Field with class .text">
+					</div>
+					<div class="span-2 last">
+						<input type="submit" value="submit" class="button">
+					</div>
+				</fieldset>
+
+			</form>
+
+		</div>
+
+<!-- last test -->
+    <div id="lasttest" class="span-6 colborder">
+        <h2>Last test</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula. Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+    </div>
+    <div id="lasttest2" class="span-5 last">
+        <h3>Column 2 (.last)</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula. Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+    </div>
+
+<!-- (a/pre)pending test -->
+    <div id="pending" class="span-6 append-2">
+        <h2>Pending test</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula. Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+    </div>
+    <div id="pending2" class="span-3 precolborder last">
+        <h3>Column 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula.</p>
+    </div>
+
+<!-- push/pull test -->
+    <div id="pushpull" class="span-12">
+
+        <div class="span-5">
+            <h2>Push/Pull test</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula. Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+        </div>
+
+        <div id="movethis" class="span-1 xpush-6 last">
+            <div id="move">MOVE</div>
+        </div>
+
+    </div>
+
+<!-- sidebar-12 -->
+    <div id="sidebar-12" class="span-4">
+        <h3>Sidebar</h3>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <li>Item 5</li>
+        </ul>
+    </div>
+
+    <div id="content-12" class="span-8 last">
+    <h2>Content</h2>
+    <div class="notice">
+        <h3>Notice</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula.</p>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <li>Item 5</li>
+        </ul>
+        <p class="last">Final paragraph has no bottom margin.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula.</p>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ul>
+    <p>Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+
+    <div id="inner-content-1-12" class="span-4 first">
+        <h3>Inner content 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+    </div>
+
+    <div id="inner-content-2-12" class="span-4 last">
+        <h3>Inner content 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+    </div>
+
+    <div id="prepend-test-12" class="span-8 last">
+        <div class="span-5 append-3 border">
+            <h3>Prepend test with border</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+        </div>
+    </div>
+
+    <!--<div id="input-test" class="span-8 last">
+        <label for="firstname" class="span-2">Firstname</label>
+        <input id="firstname" class="span-4 last" />
+
+        <input class="span-3" />
+        <input class="span-2" />
+        <input class="span-3 last" />
+    </div>-->
+
+    <div id="colbordertest-12-1" class="span-3 colborder">
+            <h3>Colborder test - Column 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+    </div>
+
+    <div id="colbordertest-12-2" class="span-4 last">
+            <h3>Colborder test - Column 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+    </div>
+
+
+    </div>
+
+    <div id="footer-12" class="span-12 last">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Semp itil crompa. Dolor sit amet et tutelio.</p>
+    </div>
+
+</div>
+
+<hr class="prepend-top append-bottom" />
+
+<!-- 16 columns ============================================================ -->
+<div id="container-16" class="container-16 showgrid-16">
+    <div id="header-16" class="span-16 last">
+        <h1>Blueprint 960gs - 16 columns</h1>
+    </div>
+
+<!-- Form elements test -->
+    <h2 class="span-16 last">Form elements test</h2>
+    <form id="dummyElements" action="#" method="post" class="span-16 last">
+
+        <div class="span-8">
+            <p>
+                <label for="textElement">First name</label><br />
+                <input id="textElement" name="textElement" class="text span-8" />
+            </p>
+        </div>
+
+        <div class="span-8 last">
+            <p>
+                <label for="textElementSurname">Last name</label><br />
+                <input id="textElementSurname" name="textElementSurname" class="text span-8 last" />
+            </p>
+        </div>
+
+        <p><label for="textAreaElement">Message</label><br />
+        <textarea id="textAreaElement" class="span-4 last"></textarea></p>
+    </form>
+
+<!-- Form test -->
+<!--    <h2 class="span-16 last">Form test (based on original forms demo)</h2>
+
+    <div class="span-8">
+
+      <form id="dummy" action="#" method="post">
+
+      	<fieldset>
+      		<legend>Simple sample form</legend>
+
+      		<p><label for="dummy0">Text input (title)</label><br>
+      		  <input type="text" class="title" name="dummy0" id="dummy0" value="Field with class .title"></p>
+
+          <p><label for="dummy1">Another field</label><br>
+      		  <input type="text" class="text" id="dummy1" name="dummy1" value="Field with class .text"></p>
+
+      	  <p><label for="dummy2">Textarea</label><br>
+      	    <textarea name="dummy2" id="dummy2" rows="5" cols="20"></textarea></p>
+
+      		<p><input type="submit" value="Submit">
+      		  <input type="reset" value="Reset"></p>
+
+      	</fieldset>
+      </form>
+
+    </div>
+    <div class="span-8 last">
+
+      <div class="error">
+        This is a &lt;div&gt; with the class <strong>.error</strong>. <a href="#">Link</a>.
+      </div>
+      <div class="notice">
+        This is a &lt;div&gt; with the class <strong>.notice</strong>. <a href="#">Link</a>.
+      </div>
+      <div class="success">
+        This is a &lt;div&gt; with the class <strong>.success</strong>. <a href="#">Link</a>.
+      </div>
+
+      <fieldset>
+        <legend>Select, checkboxes, lists</legend>
+
+    		<p><label for="dummy3">Select field</label><br>
+    		  <select id="dummy3" name="dummy3">
+    			  <option value="1">Ottawa</option>
+    			  <option value="2">Calgary</option>
+    			  <option value="3">Moosejaw</option>
+    		  </select></p>
+
+    		<p><label for="dummy4">Select with groups</label><br>
+    		  <select id="dummy4" name="dummy4">
+    			  <option>Favorite pet</option>
+    			  <optgroup label="mammals">
+    			    <option>dog</option>
+    			    <option>cat</option>
+    			    <option>rabbit</option>
+    			    <option>horse</option>
+    			  </optgroup>
+    			  <optgroup label="reptiles">
+    			    <option>iguana</option>
+    			    <option>snake</option>
+    			  </optgroup>
+    		  </select></p>
+
+    		  <p><label>Radio buttons</label><br>
+    		    <input type="radio" name="example"> Radio one<br>
+    		    <input type="radio" name="example"> Radio two<br>
+    		    <input type="radio" name="example"> Radio three<br></p>
+
+    		  <p><label>Checkboxes</label><br>
+    		    <input type="checkbox"> Check one<br>
+    		    <input type="checkbox"> Check two<br>
+    		    <input type="checkbox"> Check three<br></p>
+
+      </fieldset>
+
+    </div>
+
+		<div class="span-16 last">
+
+			<fieldset>
+        		<legend>Alignment</legend>
+
+    			<p>
+					<label for="dummy5">Select field</label>
+		    		  <select id="dummy5" name="dummy5">
+    					  <option value="1">Ottawa</option>
+    					  <option value="2">Calgary</option>
+    					  <option value="3">Moosejaw</option>
+    		 		 </select>
+        		</p>
+
+    		<p>
+					<label for="dummy6">Text input (title)</label>
+    		  <input type="text" class="title" name="dummy6" id="dummy6" value="Field with class .title">
+				</p>
+
+				<p>
+					<label for="dummy7">Select field</label>
+    		  <select id="dummy7" name="dummy7">
+    			  <option value="1">Ottawa</option>
+    			  <option value="2">Calgary</option>
+    			  <option value="3">Moosejaw</option>
+    		  </select>
+					<label for="dummy8">Another field</label>
+      		<input type="text" class="text" id="dummy8" name="dummy8" value="Field with class .text"></p>
+        	</fieldset>
+
+        </div>
+
+        <div class="span-16 last">
+
+			<form action="" method="post" class="inline">
+
+				<fieldset>
+					<legend>A form with class "inline"</legend>
+					<div class="span-3">
+						<label for="a">Label A:</label>
+						<select id="a" name="a" >
+							<option value="0">All</option>
+						</select>
+					</div>
+					<div class="span-2">
+						some text
+					</div>
+					<div class="span-3">
+						<input type="checkbox" id="o" name="o" value="true"	checked="checked" class="checkbox">checkbox one
+					</div>
+					<div class="span-3">
+						<label for="b">Label B:</label>
+						<select id="b" name="b" >
+							<option value="0">All</option>
+						</select>
+					</div>
+					<div class="span-2">
+						<a href="">A Hyperlink</a>
+					</div>
+					<div class="span-8">
+						<input type="text" class="text" id="q" name="q" value="Field with class .text">
+					</div>
+					<div class="span-2 last">
+						<input type="submit" value="submit" class="button">
+					</div>
+				</fieldset>
+
+			</form>
+
+		</div>-->
+
+
+<!-- last test -->
+<!--    <div id="lasttest" class="span-8 colborder">
+        <h2>Last test</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula. Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+    </div>
+    <div id="lasttest2" class="span-7 last">
+        <h3>Column 2 (.last)</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula. Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+    </div>-->
+
+<!-- (a/pre)pending test -->
+    <div id="pending1-16" class="span-6 append-2">
+        <h2>Pending test</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula. Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+    </div>
+    <div id="pending2-16" class="span-7 precolborder last">
+        <h3>Column 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula.</p>
+    </div>
+
+<!-- push/pull test -->
+    <div id="pushpull" class="span-16">
+
+        <div class="span-8">
+            <h2>Push/Pull test</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula. Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+        </div>
+
+        <div id="movethis" class="span-1 push-3 last">
+            <div id="move">MOVE</div>
+        </div>
+
+    </div>
+
+<!-- sidebar-16 -->
+    <div id="sidebar-16" class="span-4">
+        <h3>Sidebar</h3>
+        <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        </ul>
+    </div>
+
+    <div id="content-16" class="span-8">
+    <h2>Content</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula.</p>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ul>
+    <p>Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+
+    <div id="inner-content16-1" class="span-4 first">
+        <h3>Inner content 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+    </div>
+
+    <div id="inner-content16-2" class="span-4 last">
+        <h3>Inner content 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+    </div>
+
+    <div id="prepend-test-16" class="span-8 last">
+        <div class="span-5 append-3 border">
+            <h3>Prepend test with border</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+        </div>
+    </div>
+
+    <div id="colborder-test-16-a" class="prepend-top span-3 colborder">
+        <h3>Column border 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Semp itil crompa. Dolor sit amet et tutelio.</p>
+    </div>
+    <div id="colborder-test-16-b" class="prepend-top span-4 last">
+        <h3>Column border 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Semp itil crompa. Dolor sit amet et tutelio.</p>
+    </div>
+
+
+   </div>
+
+    <div id="relatedcontent-16" class="span-4 last">
+        <h3>Related content</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellusa velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Semp itil crompa. Dolor sit amet et tutelio.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellusaa velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Semp itil crompa. Dolor sit amet et tutelio.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Semp itil crompa. Dolor sit amet et tutelio.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Semp itil crompa. Dolor sit amet et tutelio.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Semp itil crompa. Dolor sit amet et tutelio.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Semp itil crompa. Dolor sit amet et tutelio.</p>
+    </div>
+
+    <div id="footer-16" class="span-16 last">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Semp itil crompa. Dolor sit amet et tutelio.</p>
+    </div>
+</div>
+
+<hr class="prepend-top append-bottom" />
+
+<!-- 24 columns ============================================================ -->
+<div id="container-24" class="container-24 showgrid-24">
+
+    <div id="header-24" class="span-24 last">
+        <h1>Blueprint 970gs - 24 columns</h1>
+    </div>
+
+<!-- (a/pre)pending test -->
+    <div id="pending1-24" class="span-12 append-2">
+        <h2>Pending test</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula. Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+    </div>
+    <div id="pending2-24" class="span-9 precolborder last">
+        <h3>Column 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula.</p>
+    </div>
+
+<!-- append-x-colborder test -->
+    <div id="cb24a" class="span-6 append-5-colborder">
+        <h2>append-x-colborder</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula. Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+    </div>
+    <div id="cb24b" class="span-12 last">
+        <h3>Column 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula.</p>
+    </div>
+
+<!-- sidebar -->
+    <div id="sidebar-24" class="span-8 clear">
+        <h3>Sidebar (with clear)</h3>
+        <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        </ul>
+    </div>
+
+    <div id="content-24" class="span-16 last">
+    <h2>Content</h2>
+    <div class="notice">
+        <h3>Notice</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula.</p>
+        <p class="last">Final paragraph has no bottom margin.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula.</p>
+
+    <p>Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+
+    <div id="inner-content-1-24" class="span-8 first">
+        <h3>Inner content 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+    </div>
+
+    <div id="inner-content-2-24" class="span-8 last">
+        <h3>Inner content 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+    </div>
+
+    <div id="prepend-test-24" class="span-16 last">
+        <div class="span-5 append-3 border">
+            <h3>Prepend test with border</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+        </div>
+    </div>
+
+    <!--<div id="input-test" class="span-16 last">
+        <label for="firstname" class="span-4">Firstname</label>
+        <input id="firstname" class="span-8 last" />
+
+        <input class="span-6" />
+        <input class="span-4" />
+        <input class="span-6 last" />
+    </div>-->
+
+    <div id="colbordertest-24-1" class="span-6 colborder">
+            <h3>Colborder test - Column 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+    </div>
+
+    <div id="colbordertest-24-2" class="span-8 last">
+            <h3>Colborder test - Column 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+    </div>
+
+
+    </div>
+
+    <div id="footer-24" class="span-24 last">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Semp itil crompa. Dolor sit amet et tutelio.</p>
+    </div>
+
+</div>
+
+<hr class="prepend-top append-bottom" />
+
+<!-- DEFAULT: Blueprint CSS 24 columns ===================================== -->
+<div id="container" class="container showgrid append-bottom">
+    <div id="header" class="span-24 last">
+        <h1>DEFAULT: Blueprint CSS - 24 columns</h1>
+    </div>
+
+<h2>TEST</h2>
+<!-- TEST append-3-colborder -->
+<div class="span-6 append-5-colborder">
+    <h3>append-x-colborder 2</h3>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula. Etiam consectetuer pretium est. Fusce eleifend porta mi.</p>
+</div>
+
+<div class="span-12 last">
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula. Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+</div>
+
+
+    <div id="sidebar" class="span-8 clear">
+        <h3>Sidebar</h3>
+        <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        </ul>
+    </div>
+
+    <div id="content" class="span-16 last">
+    <h2>Content</h2>
+    <div class="notice">
+        <h3>Notice</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula.</p>
+        <p class="last">Final paragraph has no bottom margin.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Mauris vestibulum metus ac orci. Suspendisse erat. Mauris gravida tellus semper velit. Etiam vitae ligula. Curabitur eu lacus. Aenean massa ligula, gravida eget, molestie vitae, rhoncus nec, ligula.</p>
+
+   <p>Etiam consectetuer pretium est. Fusce eleifend porta mi. Aliquam commodo, nunc dapibus eleifend tincidunt, urna neque iaculis tortor, in blandit nulla orci at arcu. In tristique congue ligula. Nam hendrerit, ante at molestie molestie, sem nisi tincidunt nulla, et faucibus sapien nisl ac diam. Morbi velit. Pellentesque sed mi. Nunc purus lacus, dictum sit amet, pulvinar at, tincidunt ac, leo. Sed quis sem eu nunc posuere fermentum. Ut elementum iaculis lectus.</p>
+
+    <div id="inner-content-1" class="span-8 first">
+        <h3>Inner content 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+    </div>
+
+    <div id="inner-content-2" class="span-8 last">
+        <h3>Inner content 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+    </div>
+
+    <div id="prepend-test" class="span-16 last">
+        <div class="span-10 append-6 border">
+            <h3>Prepend test with border</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+        </div>
+    </div>
+
+    <!--<div id="input-test" class="span-8 last">
+        <label for="firstname" class="span-2">Firstname</label>
+        <input id="firstname" class="span-4 last" />
+
+        <input class="span-3" />
+        <input class="span-2" />
+        <input class="span-3 last" />
+    </div>-->
+
+    <div id="colbordertest-1" class="span-7 colborder">
+            <h3>Colborder test - Column 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+    </div>
+
+    <div id="colbordertest-2" class="span-8 last">
+            <h3>Colborder test - Column 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque.</p>
+    </div>
+
+
+    </div>
+
+    <div id="footer" class="span-24 last">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras tellus velit, laoreet sit amet, commodo quis, scelerisque ac, neque. Semp itil crompa. Dolor sit amet et tutelio.</p>
+    </div>
+
+</div>
+
+
+</body>
+
+</html>

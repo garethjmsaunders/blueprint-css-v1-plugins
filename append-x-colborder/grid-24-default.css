@@ -1,0 +1,30 @@
+﻿/* append-x-colborder default */
+
+.append-1-colborder, .append-2-colborder, .append-3-colborder, .append-4-colborder, .append-5-colborder, .append-6-colborder, .append-7-colborder, .append-8-colborder, .append-9-colborder, .append-10-colborder, .append-11-colborder, .append-12-colborder, .append-13-colborder, .append-14-colborder, .append-15-colborder, .append-16-colborder, .append-17-colborder, .append-18-colborder, .append-19-colborder, .append-20-colborder, .append-21-colborder, .append-22-colborder, .append-23-colborder, .append-24-colborder {
+  margin-right: 25px;
+  border-right: 1px solid #000;
+}
+
+.append-1-colborder {padding-right: 64px;}
+.append-2-colborder {padding-right: 104px;}
+.append-3-colborder {padding-right: 144px;}
+.append-4-colborder {padding-right: 184px;}
+.append-5-colborder {padding-right: 224px;}
+.append-6-colborder {padding-right: 264px;}
+.append-7-colborder {padding-right: 304px;}
+.append-8-colborder {padding-right: 344px;}
+.append-9-colborder {padding-right: 384px;}
+.append-10-colborder {padding-right: 424px;}
+.append-11-colborder {padding-right: 464px;}
+.append-12-colborder {padding-right: 504px;}
+.append-13-colborder {padding-right: 544px;}
+.append-14-colborder {padding-right: 584px;}
+.append-15-colborder {padding-right: 624px;}
+.append-16-colborder {padding-right: 664px;}
+.append-17-colborder {padding-right: 704px;}
+.append-18-colborder {padding-right: 744px;}
+.append-19-colborder {padding-right: 784px;}
+.append-20-colborder {padding-right: 824px;}
+.append-21-colborder {padding-right: 864px;}
+.append-22-colborder {padding-right: 904px;}
+.append-23-colborder {padding-right: 944px;}

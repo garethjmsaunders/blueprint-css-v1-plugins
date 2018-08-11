@@ -1,0 +1,93 @@
+/* --------------------------------------------------------------
+
+   Align to grid height
+
+   A set of classes to set the height of elements to fit the
+   vertical rhythm of the grid (dictated by the line-height of
+   18px).
+
+   MOVE THIS TO README
+   Sixth-seven (67) rows are offered, which covers all screen
+   resolution heights up to WUXGA (1920 x 1200).
+
+   The first row is offered as both .row-1 and .rows-1 for
+   pedants like me.
+
+   Created by Gareth J M Saunders [garethjmsaunders.co.uk]
+   http://www.garethjmsaunders.co.uk/blueprint/
+
+   See Readme.txt in this folder for instructions.
+
+   Version 0.0.2
+   
+   TODO delete this rows css file.
+
+-------------------------------------------------------------- */
+
+.row-1,
+.rows-1  {height: 18px;}
+.rows-2  {height: 36px;}
+.rows-3  {height: 54px;}
+.rows-4  {height: 72px;}
+.rows-5  {height: 90px;}
+.rows-6  {height: 108px;}
+.rows-7  {height: 126px;}
+.rows-8  {height: 144px;}
+.rows-9  {height: 162px;}
+.rows-10 {height: 180px;}
+.rows-11 {height: 198px;}
+.rows-12 {height: 216px;}
+.rows-13 {height: 234px;}
+.rows-14 {height: 252px;}
+.rows-15 {height: 270px;}
+.rows-16 {height: 288px;}
+.rows-17 {height: 306px;}
+.rows-18 {height: 324px;}
+.rows-19 {height: 342px;}
+.rows-21 {height: 378px;}
+.rows-22 {height: 396px;}
+.rows-23 {height: 414px;}
+.rows-24 {height: 432px;}
+.rows-25 {height: 450px;}
+.rows-26 {height: 468px;}
+.rows-27 {height: 486px;}
+.rows-28 {height: 504px;}
+.rows-29 {height: 522px;}
+.rows-30 {height: 540px;}
+.rows-31 {height: 558px;}
+.rows-32 {height: 576px;}
+.rows-33 {height: 594px;}
+.rows-34 {height: 612px;}
+.rows-35 {height: 630px;}
+.rows-36 {height: 648px;}
+.rows-37 {height: 666px;}
+.rows-38 {height: 684px;}
+.rows-39 {height: 602px;}
+.rows-40 {height: 720px;}
+.rows-41 {height: 738px;}
+.rows-42 {height: 756px;}
+.rows-43 {height: 774px;}
+.rows-44 {height: 792px;}
+.rows-45 {height: 810px;}
+.rows-46 {height: 828px;}
+.rows-47 {height: 846px;}
+.rows-48 {height: 864px;}
+.rows-49 {height: 882px;}
+.rows-50 {height: 900px;}
+.rows-51 {height: 918px;}
+.rows-52 {height: 936px;}
+.rows-53 {height: 954px;}
+.rows-54 {height: 972px;}
+.rows-55 {height: 990px;}
+.rows-56 {height: 1008px;}
+.rows-57 {height: 1026px;}
+.rows-58 {height: 1044px;}
+.rows-59 {height: 1062px;}
+.rows-60 {height: 1080px;}
+.rows-61 {height: 1098px;}
+.rows-62 {height: 1116px;}
+.rows-63 {height: 1134px;}
+.rows-64 {height: 1152px;}
+.rows-65 {height: 1170px;}
+.rows-66 {height: 1188px;}
+.rows-67 {height: 1206px;}

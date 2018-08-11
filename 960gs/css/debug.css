@@ -1,0 +1,48 @@
+body {
+    background-color: #777;
+    }
+
+.container, .container-12, .container-16, .container-24 {
+    background-color: #ffffff;
+    }
+
+
+#header-12,
+#header-16,
+#header-24 {
+    background-color: transparent;
+    }
+
+#sidebar-12,
+#sidebar-16,
+#sidebar-24 {
+    background-color: transparent;
+    }
+
+#content-12,
+#content-16,
+#content-24 {
+    background-color: transparent;
+    }
+
+#footer-12,
+#footer-16,
+#footer-24 {
+    background-color: transparent;
+    }
+
+.notice .last {
+    margin: 0 !important;
+}
+
+#move {
+    background-color: red;
+    color: white;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    width: 60px;
+    }
+
+.border, .colborder, .precolborder {border-color: #000 !important;}

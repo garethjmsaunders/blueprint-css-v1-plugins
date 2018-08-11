@@ -1,0 +1,16 @@
+﻿/* demo */
+
+body {
+    background-color: #777777;
+    }
+
+.container, .container-12, .container-16, .container-24 {
+    background-color: #ffffff;
+    }
+
+p {
+    border: 1px solid #777777;
+    overflow: hidden;
+    padding: 8px 0;
+    text-align: center;
+    }
